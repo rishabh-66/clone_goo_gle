@@ -1,8 +1,8 @@
 import {useState, useEffect} from 'react'
 import API_KEY from './keys'
 
-//  "f04dee5adce0d6531"
-const CONTEXT_KEY = "9bdfb63fb9a429aae"
+//  ""
+const CONTEXT_KEY = "9b"
 
 const useGoogleSearch = (term) => {
     const [data,setDAta] = useState(null);
